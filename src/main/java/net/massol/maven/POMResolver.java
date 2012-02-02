@@ -27,6 +27,8 @@ public class POMResolver
         ecm.initialize(getClass().getClassLoader());
 
         // Initialize Container
+        // TODO: Modify XWiki Platform to introduce a default configured Container so that we don't have to do this
+        // here.
         Container container = ecm.lookup(Container.class);
         container.setApplicationContext(new ApplicationContext()
         {
