@@ -1,0 +1,1 @@
+net.massol.maven.DefaultConfigurationSource
